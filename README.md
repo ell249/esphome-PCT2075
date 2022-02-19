@@ -16,3 +16,14 @@ sensor:
       name: "PCT2075 Temperature"
     update_interval: 30s
 ```
+
+## Configuration variables
+**temperature** (**Required**): The information for the temperature sensor.
+
+- **name** (**Required**, string): The name for the temperature sensor.
+
+- **id** (*Optional*, ID): Set the ID of this sensor for use in lambdas.
+
+- All other options from [Sensor](https://esphome.io/components/sensor/index.html#config-sensor).
+
+update_interval (Optional, Time): The interval to check the sensor. Defaults to 60s.
