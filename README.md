@@ -18,6 +18,7 @@ sensor:
 ```
 
 ## Configuration variables
+
 **temperature** (**Required**): The information for the temperature sensor.
 
 - **name** (**Required**, string): The name for the temperature sensor.
@@ -27,3 +28,7 @@ sensor:
 - All other options from [Sensor](https://esphome.io/components/sensor/index.html#config-sensor).
 
 update_interval (Optional, Time): The interval to check the sensor. Defaults to 60s.
+
+## Future
+
+Implement the interrupt/alert functionality that's available on the chip.
